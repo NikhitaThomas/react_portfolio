@@ -33,7 +33,7 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className="border-b">
+        <a href={'mailto:' + CONTACT.email} className="border-b">
           {CONTACT.email}
         </a>
         <div className="flex justify-center my-10 gap-4">

@@ -2,6 +2,7 @@ import project1 from '/assets/shopping-cart.jpg';
 import project2 from '/assets/tip-calc.png';
 import project3 from '/assets/huddle-landing.jpg';
 import project4 from '/assets/bookmark-landing.jpg';
+import project5 from '/assets/space.jpg';
 
 export const HERO_CONTENT = `I'm a recent Masters graduate in Computer Science specializing in Network and Information Security from the University of Wollongong. Passionate about technology and problem-solving, I have hands-on experience in web development and cybersecurity.`;
 
@@ -106,12 +107,16 @@ export const PROJECTS = [
     description:
       'An application for calculatin the tip that each person has to pay',
     technologies: ['HTML', 'CSS', 'Nextjs', 'TailwindCSS'],
+    link: 'https://main--tip-calcuator-app.netlify.app/',
+    code: 'https://github.com/NikhitaThomas/Tip-Calculator-App',
   },
   {
     title: 'Huddle Landing Page',
     image: project3,
     description: 'A landing page that showcases frontend skills',
     technologies: ['HTML', 'CSS', 'React', 'TailwindCSS'],
+    link: 'https://huddles-home-page.netlify.app/',
+    code: 'https://github.com/NikhitaThomas/Huddle-Landing-Page',
   },
   {
     title: 'Bookmark Landing Page',
@@ -119,6 +124,17 @@ export const PROJECTS = [
     description:
       'A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.',
     technologies: ['HTML', 'CSS', 'Nextjs', 'TailwindCSS'],
+    link: 'https://bookmarks-home-page.netlify.app/',
+    code: 'https://github.com/NikhitaThomas/bookmark-landing-page',
+  },
+  {
+    title: 'Space Tourism Website',
+    image: project5,
+    description:
+      'A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.',
+    technologies: ['Nextjs', 'TailwindCSS'],
+    link: 'https://space-tourism-1234.netlify.app/',
+    code: 'https://github.com/NikhitaThomas/space-tourism',
   },
 ];
 

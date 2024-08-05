@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { FaGitAlt } from 'react-icons/fa';
 import { FaPython } from 'react-icons/fa';
+import { TbBrandPython } from 'react-icons/tb';
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -72,7 +73,7 @@ const Technologies = () => {
           <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(1)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -80,7 +81,7 @@ const Technologies = () => {
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(1.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -88,12 +89,12 @@ const Technologies = () => {
           <FaGitAlt className="text-7xl text-orange-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaPython className="text-7xl" />
+          <TbBrandPython className="text-7xl" />
         </motion.div>
       </motion.div>
     </div>
