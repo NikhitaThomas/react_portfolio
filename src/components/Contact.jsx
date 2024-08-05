@@ -37,11 +37,11 @@ const Contact = () => {
           {CONTACT.email}
         </a>
         <div className="flex justify-center my-10 gap-4">
-          <a href="https://www.linkedin.com/in/nikitathomas11/">
+          <a target="_blank" href="https://www.linkedin.com/in/nikitathomas11/">
             <FaLinkedin />
           </a>
 
-          <a href="https://github.com/NikhitaThomas">
+          <a target="_blank" href="https://github.com/NikhitaThomas">
             <FaGithub />
           </a>
         </div>
