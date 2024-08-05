@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-cneter">
-        <h3 className="text-2xl">Nikita T</h3>
+        <h2 className="text-2xl text-blue-800">Nikita T</h2>
       </div>
       <div className="hidden md:inline-flex m-8 items-center justify-center gap-4 text-lg lg:text-2xl">
         <a href="#about">About</a>

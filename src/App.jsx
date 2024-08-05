@@ -7,10 +7,12 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Background from './components/Background';
+import AnimatedCursor from 'react-animated-cursor';
 
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
+      <AnimatedCursor outerSize={12} innerSize={12} color="169, 120, 202" />
       <div className="fixed top-0 -z-10 h-full w-full">
         <div class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
       </div>
