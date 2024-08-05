@@ -1,7 +1,7 @@
-import project1 from '../assets/shopping-cart.jpg';
-import project2 from '../assets/tip-calc.png';
-import project3 from '../assets/huddle-landing.jpg';
-import project4 from '../assets/bookmark-landing.jpg';
+import project1 from '/assets/shopping-cart.jpg';
+import project2 from '/assets/tip-calc.png';
+import project3 from '/assets/huddle-landing.jpg';
+import project4 from '/assets/bookmark-landing.jpg';
 
 export const HERO_CONTENT = `I'm a recent Masters graduate in Computer Science specializing in Network and Information Security from the University of Wollongong. Passionate about technology and problem-solving, I have hands-on experience in web development and cybersecurity.`;
 

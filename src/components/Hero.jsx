@@ -50,7 +50,7 @@ const Hero = () => {
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1.2 }}
-                src="src/assets/flat-hand-drawn-remote-working-illustration-with-woman.png"
+                src="/assets/flat-hand-drawn-remote-working-illustration-with-woman.png"
                 alt="Hero Image"
               />
               <figcaption className="text-slate-700 font-extralight text-right">

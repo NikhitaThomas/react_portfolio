@@ -19,7 +19,7 @@ const About = () => {
           >
             <figure>
               <img
-                src="src/assets/flat-hand-drawn-hygge-lifestyle-illustration.png"
+                src="/assets/flat-hand-drawn-hygge-lifestyle-illustration.png"
                 alt="About"
                 width={500}
               />
