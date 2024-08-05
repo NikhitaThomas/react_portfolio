@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="projects" className="border-b border-neutral-900 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -36,7 +36,24 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <div className="flex justify-between">
+                <h6 className="mb-2 font-semibold border-b border-purple-800 pb-4">
+                  {project.title}{' '}
+                </h6>
+                <div>
+                  <span className="border border-purple-600 rounded-full text-sm p-2 ml-3">
+                    <a target="_blank" href={project.link}>
+                      Link
+                    </a>
+                  </span>
+                  <span className="border border-purple-200 rounded-full text-sm p-2 ml-3">
+                    <a target="_blank" href={project.code}>
+                      Code
+                    </a>
+                  </span>
+                </div>
+              </div>
+
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span

@@ -2,9 +2,11 @@ import React from 'react';
 import { RiReactjsLine } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { SiMongodb } from 'react-icons/si';
-import { DiRedis } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { RiTailwindCssFill } from 'react-icons/ri';
+import { FaGitAlt } from 'react-icons/fa';
+import { FaPython } from 'react-icons/fa';
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -21,7 +23,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div id="technologies" className="border-b border-neutral-800 pb-24">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -43,6 +45,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
+          {/* <p className="text-center">React</p> */}
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -66,15 +69,31 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700" />
+          <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaNodeJs className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaGitAlt className="text-7xl text-orange-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaPython className="text-7xl" />
         </motion.div>
       </motion.div>
     </div>

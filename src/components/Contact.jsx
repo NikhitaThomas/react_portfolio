@@ -1,10 +1,13 @@
 import React from 'react';
 import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';
 
 const Contact = () => {
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <div id="contact" className="border-b border-neutral-900 pb-20">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -33,6 +36,15 @@ const Contact = () => {
         <a href="#" className="border-b">
           {CONTACT.email}
         </a>
+        <div className="flex justify-center my-10 gap-4">
+          <a href="https://www.linkedin.com/in/nikitathomas11/">
+            <FaLinkedin />
+          </a>
+
+          <a href="https://github.com/NikhitaThomas">
+            <FaGithub />
+          </a>
+        </div>
       </div>
     </div>
   );

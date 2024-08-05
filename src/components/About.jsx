@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="about" className="border-b border-neutral-900 pb-4">
       <h2 className="my-20 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me</span>
@@ -17,11 +17,19 @@ const About = () => {
             transition={{ duration: 0.5 }}
             className="flex items-center justify-center"
           >
-            <img
-              src="src/assets/flat-hand-drawn-hygge-lifestyle-illustration.png"
-              alt="About"
-              width={500}
-            />
+            <figure>
+              <img
+                src="src/assets/flat-hand-drawn-hygge-lifestyle-illustration.png"
+                alt="About"
+                width={500}
+              />
+              <figcaption className="text-slate-700 font-extralight text-left">
+                Designed by{' '}
+                <span>
+                  <a href="https://www.freepik.com/">Freepik</a>
+                </span>
+              </figcaption>
+            </figure>
           </motion.div>
         </div>
         <motion.div
